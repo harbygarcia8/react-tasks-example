@@ -10,7 +10,6 @@ export const TaskContextProvider = (props) => {
     setTasks(data);
   }, []);
 
-
   function createTask(task) {
     setTasks([
       ...tasks,
